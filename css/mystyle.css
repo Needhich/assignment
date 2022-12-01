@@ -10,7 +10,7 @@ body {
 
 /* navbar coding here  */
 .mainhead {
-    background-color: rgb(240, 13, 13) !important;
+    background-color: white !important;
 }
 
 .mynavbar {
@@ -534,47 +534,42 @@ h2 {
 
 /* blue background section start here  */
 .bluebg {
-    border: 2px solid red;
-    height: 100%;
+    content: "";
     background-image: url(../images/product-tour-purple-background.jpg) !important;
-    background-repeat: no-repeat;
+    background-repeat: no-repeat !important;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    margin-bottom: 8rem;
+    margin-top: 5rem;
     background-size: 100% 100%;
 }
-
 .mainblue {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    /* align-self: center; */
-    /* width: 75%; */
-    margin-top: 8rem;
-    margin-bottom: 8rem;
-    border: 2px solid green;
+    margin-top: 8rem !important;
+    margin-bottom: 8rem !important; 
 }
-
 .pro {
     color: white;
     align-items: center;
     justify-content: center;
     text-align: center;
-    border: 2px solid orangered;
 }
 
 .imgcontentmain {
     display: flex;
     flex-direction: row;
-    border: 2px solid red;
     margin-top: 4rem;
 }
 
 .imag img {
     width: 35rem;
-    border: 3px solid green;
 }
 
 .content8 {
-    border: 2px solid gold;
     width: 30rem;
     margin-top: 4rem;
     padding: 0 3rem;
@@ -594,31 +589,26 @@ h2 {
     justify-content: center;
     margin-top: 8rem;
     margin-bottom: 2rem;
-    border: 2px solid green;
 }
 
 .tool {
     align-items: center;
     justify-content: center;
     text-align: center;
-    border: 2px solid orangered;
 }
 
 .imgtoolcontentmain {
     display: flex;
     flex-direction: row;
-    border: 2px solid red;
     margin-top: 4rem;
     margin-bottom: 4rem;
 }
 
 .imagtool img {
     width: 25rem;
-    border: 3px solid green;
 }
 
 .content9 {
-    border: 2px solid gold;
     width: 30rem;
     margin-top: 4rem;
     padding: 0 3rem;
@@ -634,31 +624,26 @@ h2 {
     justify-content: center;
     margin-top: 4rem;
     margin-bottom: 2rem;
-    border: 2px solid green;
 }
 
 .animated {
     align-items: center;
     justify-content: center;
     text-align: center;
-    border: 2px solid orangered;
 }
 
 .imganimatedcontent {
     display: flex;
     flex-direction: row;
-    border: 2px solid red;
     margin-top: 4rem;
     margin-bottom: 4rem;
 }
 
 .imaganimate img {
     width: 35rem;
-    border: 3px solid green;
 }
 
 .content10 {
-    border: 2px solid gold;
     width: 35rem;
     margin-top: 4rem;
     padding: 0 3rem;
@@ -908,6 +893,7 @@ h2 {
     text-align: center;
     justify-content: center;
 }
+
 .mainhelp {
     display: flex;
     flex-direction: column;
@@ -917,6 +903,7 @@ h2 {
     margin-bottom: 8rem;
     width: 100%;
 }
+
 .help {
     width: 42rem;
     text-align: center;
@@ -927,38 +914,42 @@ h2 {
     color: white;
     font-weight: bold;
 }
-.help p{
+
+.help p {
     font-size: 20px;
     color: white;
 }
-.imgcontentmainhelp{
+
+.imgcontentmainhelp {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     margin-bottom: 4rem;
     width: 42rem;
 }
-.content14{
+
+.content14 {
     color: white;
     font-size: 20px;
     height: 10rem;
     margin-top: 4rem;
     text-align: left;
 }
+
 .imaghlp img {
     width: 350px;
 }
 
 /* last heading enganging content section start here  */
-#enganging{
-    border: 2px solid green;
+#enganging {
     margin-top: 3rem;
     margin-bottom: 5rem;
     display: flex;
     align-items: center;
     justify-content: center;
 }
-.maincontentengange{
+
+.maincontentengange {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -971,7 +962,8 @@ h2 {
     border: 3px solid #7733e5;
     box-shadow: -10px 10px #7733e5;
 }
-.btnlink1{
+
+.btnlink1 {
     background-color: #00ffd0;
     width: 12rem;
     padding: 0.75rem 2rem;
@@ -983,7 +975,8 @@ h2 {
     color: black;
     font-weight: bold;
 }
-.btnlink1:hover{
+
+.btnlink1:hover {
     background-color: white;
     color: #00ffd0;
 }
@@ -992,46 +985,46 @@ h2 {
 .cta-container {
     border-width: 7px;
     border-bottom: 7px solid #f5933a;
-  }
-  
-  .cta-container a {
+}
+
+.cta-container a {
     text-decoration: underline;
-  }
-  
-  /* Colors */
-  
-  .bg-blue {
+}
+
+/* Colors */
+
+.bg-blue {
     background-color: #1c3e95;
-  }
-  
-  .bg-medium-blue {
+}
+
+.bg-medium-blue {
     background-color: #2c3379;
-  }
-  
-  .bg-dark-blue {
+}
+
+.bg-dark-blue {
     background-color: #26265c;
-  }
-  
-  .text-white {
+}
+
+.text-white {
     color: #fff;
-  }
-  
-  /* Media Queries */
-  
-  @media (min-width: 0) {
+}
+
+/* Media Queries */
+
+@media (min-width: 0) {
     .h-xs-200p {
-      height: 200px;
+        height: 200px;
     }
-  }
-  
-  @media (min-width: 1200px) {
+}
+
+@media (min-width: 1200px) {
     .w-xl-300p {
-      width: 300px;
+        width: 300px;
     }
-  }
-  
-  @media (min-width: 0) {
+}
+
+@media (min-width: 0) {
     .w-xs-150p {
-      width: 150px;
+        width: 150px;
     }
-  }
+}
