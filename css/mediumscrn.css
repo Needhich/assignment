@@ -1,0 +1,257 @@
+@media screen and (max-width: 1142px){
+body{
+    background-color: aqua;
+    overflow:auto;
+    overflow-x: hidden;
+}
+.mainhead {
+    background-color: rgb(53, 236, 12) !important;
+}
+/* curvey bg coding starts here  */
+.he1 {
+    position: absolute;
+    margin-top: -52rem;
+    margin-left: 2rem !important;
+    text-align: left;
+    /* font-size: 14px; */
+}
+
+.hr1 {
+    position: absolute;
+    margin-top: -51rem;
+    margin-left: 12rem;
+    border-bottom: 3px solid black;
+    width: 3rem;
+    text-align: left;
+    overflow-x: hidden;
+}
+
+.he2 {
+    position: absolute;
+    margin-top: -53rem;
+    margin-left: 53rem;
+    text-align: right;
+}
+
+.hr2 {
+    position: absolute;
+    margin-top: -52rem;
+    margin-left: 26rem;
+    border-bottom: 3px solid black;
+    width: 26rem;
+    text-align: right;
+}
+
+.he3 {
+    position: absolute;
+    margin-top: -20rem;
+    margin-left: 3rem;
+    text-align: left;
+}
+
+.hr3 {
+    position: absolute;
+    margin-top: -19rem;
+    margin-left: 12.5rem;
+    border-bottom: 3px solid black;
+    width: 11rem;
+    text-align: left;
+}
+
+.he4 {
+    position: absolute;
+    margin-top: -4rem;
+    margin-left: 3rem;
+    text-align: left;
+}
+
+.hr4 {
+    position: absolute;
+    margin-top: -3rem;
+    margin-left: 11.5rem;
+    border-bottom: 3px solid black;
+    width: 12rem;
+}
+
+.he5 {
+    position: absolute;
+    margin-top: -8rem;
+    margin-left: 50rem;
+    text-align: left;
+    width: 8rem;
+}
+
+.hr5 {
+    position: absolute;
+    margin-top: -6rem;
+    margin-left: 47rem;
+    border-bottom: 3px solid black;
+    width: 10.5rem;
+}
+
+/* section 3rd images starts here  */
+.main {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    justify-content: space-evenly;
+    margin-top: 2rem;
+}
+
+.imgleft {
+    margin-top: 1rem;
+    text-align: left;
+}
+
+.imgleft::after {
+    content: "";
+    border-right: 3px solid black;
+    height: 32.5rem;
+    position: absolute;
+    margin-top: -34.9rem;
+    margin-left: 27rem;
+}
+
+.leftimg1::after {
+    content: "";
+    border-bottom: 3px solid black;
+    width: 2rem;
+    position: absolute;
+    margin-top: 2rem;
+}
+
+.leftimg2::after {
+    content: "";
+    border-bottom: 3px solid black;
+    width: 2rem;
+    position: absolute;
+    margin-top: 2rem;
+}
+
+.leftimg3::after {
+    content: "";
+    border-bottom: 3px solid black;
+    width: 2rem;
+    position: absolute;
+    margin-top: 2rem;
+}
+
+.leftimg4::after {
+    content: "";
+    border-bottom: 3px solid black;
+    width: 2rem;
+    position: absolute;
+    margin-top: 2rem;
+}
+
+.leftimg5::after {
+    content: "";
+    border-bottom: 3px solid black;
+    width: 2rem;
+    position: absolute;
+    margin-top: 2rem;
+}
+
+.leftimg6::after {
+    content: "";
+    border-bottom: 3px solid black;
+    width: 2rem;
+    position: absolute;
+    margin-top: 2rem;
+}
+
+.imgleft img {
+    width: 400px;
+}
+
+.imgcentre {
+    width: 9rem;
+    height: 15rem;
+    margin-top: 5rem;
+}
+
+.imgcentre::before {
+    content: "";
+    border-bottom: 3px solid black;
+    width: 3.1rem;
+    position: absolute;
+    margin-top: 3.5rem;
+    margin-left: -3.1rem;
+}
+
+.imgcentre::after {
+    content: "";
+    border-bottom: 3px solid black;
+    width: 5rem;
+    position: absolute;
+    margin-top: -9.5rem;
+    margin-left: 3.2rem;
+}
+
+.imgcentre img {
+    width: 110px;
+}
+
+.para {
+    background-color: rgb(224, 221, 221);
+    width: 6rem;
+    height: 6rem;
+    text-align: left;
+    justify-content: center;
+    padding: 10px;
+    align-self: center !important;
+    margin-left: 1.5rem;
+}
+
+.imgright {
+    margin-top: 3rem;
+}
+
+.imgright img {
+    width: 300px;
+}
+
+.lastdiv {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    padding: 40px 0;
+}
+
+.linkbtn {
+    margin-top: 2rem !important;
+}
+
+.linkbtn a{
+    border: 2px solid #00ffd0;
+    border-radius: 36px;
+    background-color: #00ffd0;
+    padding: 15px 32px;
+    margin-bottom: 2px;
+    font-size: 18px;
+    font-weight: 600;
+    width: 25rem;
+    color: black !important;
+    text-decoration: none !important;
+    letter-spacing: 1.3px;
+    transition: 0.3s ease-in-out;
+}
+.linkbtn a:hover{
+    color: #00ffd0 !important; 
+    background-color: #ffffff;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+}
