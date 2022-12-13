@@ -1,26 +1,22 @@
-@media screen and (max-width: 1142px){
+@media screen and (max-width: 1154px){
 body{
-    background-color: aqua;
     overflow:auto;
     overflow-x: hidden;
-}
-.mainhead {
-    background-color: rgb(53, 236, 12) !important;
 }
 /* curvey bg coding starts here  */
 .he1 {
     position: absolute;
-    margin-top: -52rem;
-    margin-left: 2rem !important;
+    margin-top: -650px;
+    margin-left: 150px !important;
     text-align: left;
     /* font-size: 14px; */
 }
 
 .hr1 {
     position: absolute;
-    margin-top: -51rem;
-    margin-left: 12rem;
-    border-bottom: 3px solid black;
+    margin-top: -640px;
+    margin-left: 18rem;
+    border-bottom: 2px solid black;
     width: 3rem;
     text-align: left;
     overflow-x: hidden;
@@ -28,65 +24,65 @@ body{
 
 .he2 {
     position: absolute;
-    margin-top: -53rem;
-    margin-left: 53rem;
+    margin-top: -660px;
+    margin-left: 51rem;
     text-align: right;
 }
 
 .hr2 {
     position: absolute;
-    margin-top: -52rem;
-    margin-left: 26rem;
-    border-bottom: 3px solid black;
-    width: 26rem;
+    margin-top: -650px;
+    margin-left: 31rem;
+    border-bottom: 2px solid black;
+    width: 20rem;
     text-align: right;
 }
 
 .he3 {
     position: absolute;
-    margin-top: -20rem;
-    margin-left: 3rem;
+    margin-top: -225px;
+    margin-left: 6.5rem;
     text-align: left;
 }
 
 .hr3 {
     position: absolute;
-    margin-top: -19rem;
-    margin-left: 12.5rem;
-    border-bottom: 3px solid black;
-    width: 11rem;
+    margin-top: -215px;
+    margin-left: 14.5rem;
+    border-bottom: 2px solid black;
+    width: 8rem;
     text-align: left;
 }
 
 .he4 {
     position: absolute;
-    margin-top: -4rem;
-    margin-left: 3rem;
+    margin-top: -40px;
+    margin-left: 6rem;
     text-align: left;
 }
 
 .hr4 {
     position: absolute;
-    margin-top: -3rem;
-    margin-left: 11.5rem;
-    border-bottom: 3px solid black;
-    width: 12rem;
+    margin-top: -30px;
+    margin-left: 13.2rem;
+    border-bottom: 2px solid black;
+    width: 9rem;
 }
 
 .he5 {
     position: absolute;
-    margin-top: -8rem;
-    margin-left: 50rem;
+    margin-top: -70px;
+    margin-left: 47rem;
     text-align: left;
     width: 8rem;
 }
 
 .hr5 {
     position: absolute;
-    margin-top: -6rem;
-    margin-left: 47rem;
-    border-bottom: 3px solid black;
-    width: 10.5rem;
+    margin-top: -60px;
+    margin-left: 38.6rem;
+    border-bottom: 2px solid black;
+    width: 8rem;
 }
 
 /* section 3rd images starts here  */
@@ -106,16 +102,16 @@ body{
 .imgleft::after {
     content: "";
     border-right: 3px solid black;
-    height: 32.5rem;
+    height: 31.8rem;
     position: absolute;
-    margin-top: -34.9rem;
-    margin-left: 27rem;
+    margin-top: -34rem;
+    margin-left: 25.5rem;
 }
 
 .leftimg1::after {
     content: "";
     border-bottom: 3px solid black;
-    width: 2rem;
+    width: 1.5rem;
     position: absolute;
     margin-top: 2rem;
 }
@@ -123,7 +119,7 @@ body{
 .leftimg2::after {
     content: "";
     border-bottom: 3px solid black;
-    width: 2rem;
+    width: 1.5rem;
     position: absolute;
     margin-top: 2rem;
 }
@@ -131,7 +127,7 @@ body{
 .leftimg3::after {
     content: "";
     border-bottom: 3px solid black;
-    width: 2rem;
+    width:1.5rem;
     position: absolute;
     margin-top: 2rem;
 }
@@ -139,7 +135,7 @@ body{
 .leftimg4::after {
     content: "";
     border-bottom: 3px solid black;
-    width: 2rem;
+    width:1.5rem;
     position: absolute;
     margin-top: 2rem;
 }
@@ -147,7 +143,7 @@ body{
 .leftimg5::after {
     content: "";
     border-bottom: 3px solid black;
-    width: 2rem;
+    width: 1.5rem;
     position: absolute;
     margin-top: 2rem;
 }
@@ -155,34 +151,29 @@ body{
 .leftimg6::after {
     content: "";
     border-bottom: 3px solid black;
-    width: 2rem;
+    width: 1.5rem;
     position: absolute;
     margin-top: 2rem;
 }
 
 .imgleft img {
-    width: 400px;
-}
+    /* width: 400px; */
 
-.imgcentre {
-    width: 9rem;
-    height: 15rem;
-    margin-top: 5rem;
 }
 
 .imgcentre::before {
     content: "";
     border-bottom: 3px solid black;
-    width: 3.1rem;
+    width: 1.5rem;
     position: absolute;
     margin-top: 3.5rem;
-    margin-left: -3.1rem;
+    margin-left: -1.4rem;
 }
 
 .imgcentre::after {
     content: "";
     border-bottom: 3px solid black;
-    width: 5rem;
+    width: 3rem;
     position: absolute;
     margin-top: -9.5rem;
     margin-left: 3.2rem;
