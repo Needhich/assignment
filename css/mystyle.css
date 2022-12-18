@@ -4,7 +4,7 @@ p {
     font-weight: 300;
     font-size: 16px;
     line-height: 1.8;
-    overflow-x: hidden;
+    /* overflow-x: hidden; */
 }
 
 /* utility classes  */

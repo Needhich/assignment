@@ -10,37 +10,38 @@
         font-weight: 600;
         color: #ffffff;
         line-height: 55px;
-        max-width: 20rem;
+        max-width: 100%;
     }
 
     h2 {
         font-size: 26px;
         font-weight: 600;
         color: black;
-        max-width: 20rem;
+        max-width: 100%;
     }
 
     h3 {
         font-size: 23px;
         font-weight: 600;
         color: black;
-        max-width: 20rem;
+        max-width: 100%;
     }
     p{
-        max-width: 20rem;
+        max-width: 100%;
     }
-h4{
-    max-width: 20rem;
+h4,h5,h6{
+    max-width: 100%;
 }
-h5{
+/* h5{
     max-width: 20rem;
 }
 h6{
     max-width: 20rem;
-}
+} */
     /* navbar starts here  */
     .toggler {
-        width: 100% !important;
+        max-width: 100%;
+        border: 1px solid green;
     }
 
     ul li a {
@@ -91,12 +92,11 @@ h6{
         justify-content: center;
     }
     .foraligncenter {
-        display: flex;
-        flex-wrap: wrap;
         align-self: center;
         align-items: center;
         justify-content: center;
-        max-width: 20rem;
+        max-width: 80%;
+        border: 1px solid red;
     }
     .video1 {
         max-width: 20rem;
@@ -119,16 +119,25 @@ h6{
     .content2 {
         max-width: 20rem;
         margin-top: 3rem;
+        border: 1px solid red;
     }
     .content3 {
         display: flex;
-        flex-direction: row;
+        flex-direction: column;
         flex-wrap: wrap;
         align-items: center;
         justify-content: center;
         gap: 2rem 0;
         margin-top: 2rem;
         max-width: 20rem;
+        border: 1px solid red;
+    }
+    .column1 {
+        max-width: 100%;
+        padding: 20px;
+        height: 300px;
+        /* border: 2px solid rgb(237, 236, 236); */
+        border: 2px solid rgb(245, 6, 6);
     }
     /* 3rd section wavey starts here  */
     #curveybg {
@@ -149,29 +158,30 @@ h6{
         justify-content: center;
         align-self: center;
         max-width: 20rem;
+        border: 1px solid red;
     }
     .smallsize {
         margin-top: 5rem;
     }
 
     .image1 img {
-        max-width: 20rem;
+        max-width: 50%;
     }
 
     .he1 {
         position: absolute;
-        margin-top: -35.5rem;
-        margin-left: 20rem !important;
+        margin-top: -23rem;
+        margin-left: 7rem !important;
         text-align: left;
-        font-size: 16px;
+        font-size: 14px;
         font-weight: bold;
     }
 
     .hr1 {
         position: absolute;
-        margin-top: -34.5rem;
-        margin-left: 22rem;
-        border-right: solid black;
+        margin-top: -22.5rem;
+        margin-left: 7rem;
+        border-right: 2px solid black;
         width: 0 !important;
         height: 3.5rem !important;
         text-align: left;
@@ -179,18 +189,18 @@ h6{
 
     .he2 {
         position: absolute;
-        margin-top: -34rem;
-        margin-left: 25rem;
+        margin-top: -22rem;
+        margin-left: 9rem;
         text-align: right;
-        font-size: 16px;
+        font-size: 14px;
         font-weight: bold;
     }
 
     .hr2 {
         position: absolute;
-        margin-top: -33rem;
-        margin-left: 25rem;
-        border-left: solid black;
+        margin-top: -21rem;
+        margin-left: 9rem;
+        border-left: 2px solid black;
         width: 0 !important;
         height: 2rem;
         text-align: right;
@@ -198,72 +208,72 @@ h6{
 
     .he3 {
         position: absolute;
-        margin-top: 3rem;
-        margin-left: 20rem;
+        margin-top: 5.5rem;
+        margin-left: 6rem;
         text-align: left;
-        font-size: 16px;
+        font-size: 14px;
         color: black;
         font-weight: bold;
     }
 
     .hr3 {
         position: absolute;
-        margin-top: -11rem;
-        margin-left: 21.1rem;
+        margin-top: -6.5rem;
+        margin-left: 6.4rem;
         border-top: 0px solid black !important;
-        width: 2.8rem !important;
+        width: 2rem !important;
     }
 
     .hr3::before {
         content: "";
         position: absolute;
         border-left: 2px solid black !important;
-        height: 14rem !important;
+        height: 12rem !important;
     }
 
     .he4 {
         position: absolute;
-        margin-top: 0.5rem;
-        margin-left: 24.2rem;
+        margin-top: 0.9rem;
+        margin-left: 9rem;
         text-align: left;
-        font-size: 16px;
+        font-size: 14px;
         font-weight: bold;
     }
 
     .hr4 {
         position: absolute;
-        margin-top: -2rem;
-        margin-left: 24rem;
+        margin-top: -1rem;
+        margin-left: 9rem;
         border-left: 2px solid black !important;
-        height: 3rem;
+        height: 2rem;
         border-bottom: 0 !important;
     }
 
     .he5 {
         position: absolute;
-        margin-top: 1.7rem;
-        margin-left: 22rem;
+        margin-top: 2.5rem;
+        margin-left: 7.5rem;
         text-align: left;
-        font-size: 16px;
+        font-size: 14px;
         color: black;
         font-weight: bold;
-        width: 200px;
+        max-width: 30%;
     }
 
     .hr5 {
         position: absolute;
-        margin-top: -3rem;
-        margin-left: 21.8rem;
+        margin-top: -2rem;
+        margin-left: 7.5rem;
         border-bottom: 2px solid black;
-        width: 1.3rem;
+        width: 1rem;
     }
 
     .hr5::before {
         content: "";
         position: absolute;
         border-left: 2px solid black;
-        height: 5rem;
-        margin-left: -0.8rem;
+        height:4.5rem;
+        margin-left: -0.6rem;
     }
 
     .content5 {
@@ -284,8 +294,8 @@ h6{
     }
 
     .column2 {
-        width: 22rem;
-        padding: 20px;
+        max-width: 80%;
+        padding: 15px;
         margin: 0px 1rem;
         height: 300px;
         border: 1px solid rgb(200, 198, 198);
@@ -331,19 +341,19 @@ h6{
     }
 
     .imgleft {
-        width: 275px;
+        max-width: 50%;
         text-align: center;
         align-self: center;
     }
 
     .imgleft::after {
         content: "";
-        border-right: 3px solid black;
-        border-bottom: 3px solid black !important;
-        height: 36rem;
-        width: 8.1rem;
+        border-right: 2px solid black;
+        border-bottom: 2px solid black !important;
+        height: 30.8rem;
+        width: 5rem;
         position: absolute;
-        margin-top: -31.4rem;
+        margin-top: -26.3rem;
         margin-left: 2.5rem;
     }
 
@@ -364,18 +374,18 @@ h6{
         align-self: center;
         align-items: center;
         justify-content: center;
-        width: 13rem;
+        max-width: 50%;
         height: 10rem;
         margin-top: 1.5rem;
     }
 
     .imgcentre::before {
         content: "";
-        border-bottom: 3px solid black;
-        width: 7rem;
+        border-bottom: 2px solid black;
+        width: 5rem;
         position: absolute;
         margin-top: -3.5rem;
-        margin-left: -12rem;
+        margin-left: -10rem;
     }
 
     .imgcentre::after {
@@ -400,7 +410,7 @@ h6{
 
     .content7 .email-line {
         position: absolute;
-        margin-top: 100rem !important;
+        margin-top: 90rem !important;
     }
 
     .imgright {
@@ -411,8 +421,8 @@ h6{
 
     .imgright::before {
         content: "";
-        border-left: 3px solid black;
-        border-bottom: 3px solid black !important;
+        border-left: 2px solid black;
+        border-bottom: 2px solid black !important;
         height: 17rem !important;
         width: 1.2rem;
         position: absolute;
@@ -421,7 +431,7 @@ h6{
     }
 
     .imgright img {
-        width: 260px;
+        max-width: 50%;
     }
 
     .lastdiv {
@@ -470,20 +480,25 @@ h6{
         flex-direction: column;
         align-items: center;
         justify-content: center;
-        max-width: 20rem;
+        max-width: 80%;
         text-align: center;
         padding: 0;
         justify-content: center;
+        border: 1px solid red;
     }
 
     .imgcontentmain {
         display: flex;
         flex-direction: column;
+        align-items: center;
+        justify-content: center;
         margin-top: 4rem;
     }
-
+.imag{
+    max-width: 80%;
+}
     .imag img {
-        max-width: 20rem;
+        max-width: 100%;
     }
     .content8 {
         max-width: 20rem;
@@ -493,7 +508,9 @@ h6{
         font-size: large;
         text-align: left;
     }
-
+.content8 ul li{
+    list-style: disc !important;
+}
     /* markeeting tool sectionstarts here  */
     .mainmarketing {
         margin-top: 4rem;
@@ -505,20 +522,20 @@ h6{
         align-items: center;
         justify-content: center;
         text-align: center;
-        max-width: 20rem;
-        border: 2px solid red;
+        max-width: 80%;
     }
     .imgtoolcontentmain {
         flex-direction: column;
         align-items: center;
         justify-content: center;
-        max-width: 20rem;
+        max-width: 80%;
     }
 .content9{
-    max-width: 20rem;
+    max-width: 100%;
+    padding: 0;
 }
     .imagtool img {
-        max-width: 20rem;
+        max-width: 100%;
     }
 
     /* animated content section starts here  */
@@ -532,29 +549,35 @@ h6{
     }
 
     .animated {
-        max-width: 20rem;
+        max-width: 80%;
         margin-bottom: 12px;
     }
-    .imaganimate img {
-        max-width: 20rem;
+    .imaganimate{
+        max-width: 80%;
     }
-
+    .imaganimate img {
+        max-width: 100%;
+    }
+.content10 ul li{
+    list-style: disc !important;
+}
     .content10 {
-        max-width: 20rem;
+        max-width: 80%;
         margin-top: 1rem;
         padding: 0 0;
         font-size: large;
     }
 
     .visitpage {
-        border: 3px solid #7733e5;
-        box-shadow: -10px 10px #7733e5;
+        border: 2px solid #7733e5;
+        box-shadow: -8px 8px #7733e5;
         display: flex;
         flex-direction: column;
         align-items: center;
         justify-content: center;
-        max-width: 20rem;
-        height: 15rem;
+        max-width: 80%;
+        height: 12rem;
+        padding: 0;
         margin-bottom: 3rem;
     }
     .inner {
@@ -562,7 +585,7 @@ h6{
         flex-direction: column;
         align-items: center;
         justify-content: center;
-        padding: 5px 2px;
+        padding: 0 5px;
         margin-top: 5px;
         height: 12rem;
     }
@@ -591,19 +614,18 @@ h6{
     }
 
     .content11 {
-        max-width: 20rem;
+        max-width: 80%;
         font-weight: 600;
     }
 
     .imgsms {
-        max-width: 20rem;
+        max-width: 100%;
         flex-direction: column !important;
         margin-top: 15rem;
-        margin-bottom: 5px;
     }
 
     .mobilegif img {
-        width: 250px;
+        max-width: 50%;
     }
 
     .left-before::before {
@@ -615,7 +637,7 @@ h6{
         position: absolute;
         background-image: url(../images/product-tour-mobile-text-bubble-1.png);
         background-size: 100% 100%;
-        width: 230px;
+        width: 210px;
         height: 250px;
         padding: 5px;
         z-index: -1;
@@ -639,7 +661,7 @@ h6{
         position: absolute;
         background-image: url(../images/product-tour-mobile-text-bubble-2.png);
         background-size: 100% 100%;
-        width: 230px;
+        width: 210px;
         height: 150px;
         z-index: -1;
         margin-top: -160px;
@@ -648,25 +670,31 @@ h6{
 
     /* bulletproof experience every time section starts here  */
     .buletproogimage img {
-        max-width: 20rem;
+        max-width: 100%;
     }
-
+.buletproogimage{
+    max-width: 80%;
+}
     .content12 {
-        max-width: 20rem;
+        max-width: 80%;
+        border: 1px solid red;
     }
     /* mokups section starts here  */
     .content13 {
-        max-width: 20rem;
+        max-width: 80%;
         text-align: center;
     }
 
     .mainmokups {
         display: none;
     }
+    .for-mobile{
+        max-width: 80%;
+    }
     .for-mobile img {
         display: block;
         margin-top: 40px;
-        max-width: 20rem;
+        max-width: 100%;
     }
     /* help section starts here  */
     .bluebg2 {
@@ -678,7 +706,7 @@ h6{
         margin-bottom: 0;
     }
     .help {
-        max-width: 20rem;
+        max-width: 80%;
         text-align: center;
         margin-bottom: 0;
     }
@@ -686,7 +714,17 @@ h6{
         display: flex;
         flex-direction: column;
         justify-content: center;
-        max-width: 20rem;
+        max-width: 80%;
+        margin-bottom: 50px;
+    }
+    .content14 ul li {
+        list-style: disc !important;
+    }
+    .imaghlp{
+        max-width: 50%;
+    }
+    .imaghlp img{
+        max-width: 100%;
     }
     /* last heading enganging content section start here  */
     #enganging {
@@ -694,15 +732,16 @@ h6{
         margin-bottom: 2rem;
     }
     .maincontentengange {
-        max-width: 20rem;
+        max-width: 80%;
         height: 15rem;
         text-align: center;
-        padding: 10px 2px 5px 2px;
-        border: 3px solid #7733e5;
-        box-shadow: -10px 10px #7733e5;
+        padding: 1px 2px;
+        border: 2px solid #7733e5;
+        box-shadow: -8px 8px #7733e5;
     }
     /* footer starts here  */
     footer{
+        display: none;
         background-color: #f7f7f7;
     }
     .footercontent{
