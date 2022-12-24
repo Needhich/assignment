@@ -4,7 +4,7 @@ p {
     font-weight: 300;
     font-size: 16px;
     line-height: 1.8;
-    /* overflow-x: hidden; */
+    overflow-x: hidden;
 }
 
 /* utility classes  */
@@ -53,16 +53,23 @@ h3 {
 
 /* navbar coding here  */
 .mainhead {
+    display: flex;
+    align-items: center;
+    justify-content: center;
     background-color: white !important;
 }
-
+.spacing{
+    margin-left: -100px;
+    align-items: left;
+    justify-content: left !important;
+}
 .mynavbar {
     margin: 0px !important;
     padding: 0px !important;
 }
 
 .navcontainer {
-    width: 70rem !important;
+    max-width: 70% !important;
     display: flex !important;
     justify-content: space-between !important;
     text-align: center !important;
@@ -77,9 +84,8 @@ li a {
 }
 
 .logoimg {
-    max-width: 70%;
+    width: 10rem;
 }
-
 .list:hover {
     color: #32dab3 !important;
 }
@@ -221,6 +227,7 @@ li a {
     margin-bottom: 2rem;
     margin-top: 2rem;
     background-size: 100% 100%;
+    max-width: 100%;
 }
 
 .wave {
@@ -425,7 +432,7 @@ li a {
     max-width: 100%;
 }
 
-.content7 img {
+.arrow{
     max-width: 20%;
     max-height: 5%;
 }
@@ -810,7 +817,6 @@ li a {
 
 .content11 {
     max-width: 60%;
-    font-weight: 600;
 }
 
 .btnlink {
@@ -987,7 +993,7 @@ li a {
     margin-bottom: 3rem;
 }
 
-.help h3 {
+.help h2 {
     color: white;
 }
 
@@ -1011,7 +1017,7 @@ li a {
     max-width: 100%;
 }
 .content14 ul li{
-    list-style: disc;
+    list-style: disc !important;
 }
 .imaghlp{
     max-width: 50%;
