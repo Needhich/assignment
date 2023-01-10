@@ -6,7 +6,9 @@ p {
     line-height: 1.8;
     overflow-x: hidden;
 }
-
+strong{
+    font-weight: bold;
+}
 /* utility classes  */
 .primarystyle {
     font-family: 'Nunito', sans-serif;
@@ -106,9 +108,11 @@ li a {
 }
 
 .itemstylelist {
-    justify-content: space-evenly;
+    justify-content: right;
 }
-
+.itemstylelist ul{
+    column-gap: 10px;
+}
 /* first div video box coding start  */
 .before {
     z-index: -1;
@@ -210,13 +214,20 @@ li a {
     gap: 30px;
     margin-top: 2rem;
 }
-
 .column1 {
     max-width: 26%;
-    padding: 22px;
+    width: 300px;
+    padding: 22px 15px;
     height: 300px;
     border: 2px solid rgb(237, 236, 236);
 }
+/* .column1 {
+    max-width: 26%;
+    width: 350px;
+    padding: 22px;
+    height: 300px;
+    border: 2px solid rgb(237, 236, 236);
+} */
 
 /* 3rd section wavey starts here  */
 #curveybg {
@@ -1226,4 +1237,574 @@ ul {
 
 .innertxt {
     color: #bab6b6;
+}
+
+
+/* index page styles starts here below  */
+.header{
+    border-bottom: 2px solid #cccccc;
+}
+.wrapper{
+    content: "";
+    background-image: url(../images/header-background.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    background-position: center 0px;
+}
+.dynamic-emails{
+    max-width: 100%;
+    padding-top: 30px;
+}
+.text-block-1{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+}
+.text-block-1 h1{
+    align-self: center;
+    max-width: 694px;
+}
+.text-block-1 p{
+    font-weight: normal;
+    font-size: 18px;
+    color: #ffffff;
+}
+.header-img-main{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 240px;
+}
+.header-img{
+    max-width: 80%;
+    width: 360px;
+    height: 400px;
+}
+.header-img img{
+    max-width: 100%;
+    width: 100%;
+    height: 100%;
+}
+.img-text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    gap: 260px;
+    max-width: 80%;
+    color: #ffffff;
+}
+.img-para p{
+    font-size: 18px;
+    font-weight: 100%;
+}
+.img-para{
+    padding-left: 50px;
+    width: 350px;
+    text-align: left;
+}
+.img-para::before{
+    background-image: url(../images/white-arrows.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    content: '';
+    display: block;
+    width: 39px;
+    height: 11px;
+    position: absolute;
+    margin-left: -30px;
+    margin-top: 10px;
+}
+/* .dynamic-emails .schedule-demo box coding starts here  */
+.outer-box{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    max-width: 906px;
+    margin: auto;
+    margin-top: -250px;
+    padding: 20px 60px;
+    box-shadow: 0 0 4px 0 rgb(0 0 0 / 25%);
+    background-color: #ffffff;
+    color: black;
+}
+.content-area{
+    padding-right: 20px;
+}
+.list-item{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.list-item img{
+    width: 35px;
+}
+.list-item p{
+    padding-top: 15px;
+    font-size: 20px;
+}
+.cta-area{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    border-left: 1px solid #ccc;
+    height: 150px;
+    padding-left: 20px;
+}
+.cta-area a{
+    text-decoration: none;
+    border: 2px solid #4262df;
+    border-radius: 36px;
+    padding: 10px 30px;
+    font-size: 16px;
+    width: 233px;
+}
+.schedule-demo a{
+    background-color: #4262df;
+    color: #ffffff;
+}
+.schedule-demo a:hover{
+    color: #4262df;
+    background-color: #ffffff;
+}
+.watch-video a{
+    color: #4262df;
+    background-color: #ffffff;
+}
+.watch-video a:hover{
+    background-color: #4262df;
+    color: #ffffff;
+}
+.good-company-text{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.good-company-text p{
+    font-weight: bolder;
+}
+.logos{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 0 180px;
+    margin-bottom: 40px;
+}
+.logo-imges{
+    width: 140px;
+}
+.logo-imges img{
+    max-width: 100%;
+}
+/* life easier content section starts here  */
+.life-easier-content{
+    margin-top: 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.box-row{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin: 25px 0;
+    max-width: 100%;
+    width: 100%;
+    gap: 30px;
+}
+.box-columns{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    max-width: 300px;
+    height: 280px;
+    border: 1px solid #ddd;
+    padding: 15px 45px;
+}
+.box-columns img{
+    margin-bottom: 5px;
+}
+.box-columns .img1{
+    max-width: 50px;
+    width: 50px;
+}
+.box-columns .img2{
+    max-width: 80px;
+    width: 80px;
+}
+.box-columns .img3{
+    max-width: 60px;
+    width: 60px;
+}
+.box-columns p{
+    font-size: 18px;
+}
+/* increase visibility of your triggered messages starts here  */
+.smart-banner-outer{
+    margin: 10px 60px;
+}
+.triggered-msgs-bg{
+    content: "";
+    background-image: url(../images/smart-banner-section_grouped.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    align-items: center;
+    justify-content: center;
+    height: 600px;
+}
+.smart-banner-mokup{
+    display: none;
+}
+.triggered-msgs-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.heading-content-1{
+    margin-top: 40px;
+    margin-bottom: 20px;
+    max-width: 70%;
+    text-align: center;
+}
+.triggered-msgs-content p{
+    max-width: 40%;
+    margin-top: 10px;
+    margin-left: 270px;
+    font-size: 18px;
+}
+.list-items{
+    margin-left: 380px;
+    width: 50%;
+}
+.list-items ul{
+   display: flex;
+   flex-wrap: wrap;
+   width: 500px;
+   column-gap: 10px;
+}
+.list-items li{
+    width: 200px;
+    font-weight: 100 !important;
+    list-style: disc !important;
+}
+/* All Your Emails With Smart Blocks™ starts here  */
+.smart-block-outer{
+    margin: 30px 60px;
+}
+.emails-smartblock-bg{
+    content: "";
+    background-image: url(../images/smart-block-section_group.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    align-items: center;
+    justify-content: center;
+    height: 600px;
+}
+.emails-smartblock-content{
+    display: flex;
+    flex-direction: column;
+    margin-left: 50px;
+}
+.heading-content-2{
+    margin-top: 100px;
+    margin-bottom: 20px;
+    max-width: 70%;
+    align-items: left;
+    justify-content: flex-start;
+    text-align: center;
+}
+.emails-smartblock-content p{
+    max-width: 40%;
+    margin-top: 10px;
+    font-size: 18px;
+}
+.list-items2{
+    width: 50%;
+}
+.list-items2 ul{
+   display: flex;
+   flex-wrap: wrap;
+   width: 500px;
+   column-gap: 10px;
+}
+.list-items2 li{
+    width: 200px;
+    font-weight: 100 !important;
+    list-style: disc !important;
+}
+.explore{
+    margin-bottom: 50px;
+}
+.explore a{
+    text-decoration: none;
+    background-color: #4262df;
+    color: #ffffff;
+    padding: 10px 40px;
+    border: 2px solid #4262df;
+    border-radius: 32px;
+    transition: 0.2s ease-in-out;
+}
+.explore a:hover{
+    text-decoration: none;
+    color: #4262df;
+    background-color: #ffffff;
+    border: 2px solid #ffffff;
+}
+/* Zembula Makes Designing With Data Easy starts here  */
+.Zembula-Designing-heading{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 90px;
+}
+.design-img{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-self: center;
+    margin: auto;
+    max-width: 100%;
+    width: 700px;
+    margin-top: 20px;
+}
+.design-img img{
+    width: 100%;
+}
+.data-easy-content3{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 60px;
+    margin-top: 30px;
+}
+.data-easy-content3 p{
+    width: 600px;
+    margin: 20px 0;
+    font-size: 18px;
+}
+.data-easy-content3 a{
+    text-decoration: none;
+    background-color: #4262df;
+    color: #ffffff;
+    padding: 10px 40px;
+    border: 2px solid #4262df;
+    border-radius: 32px;
+    transition: 0.2s ease-in-out;
+}
+.data-easy-content3 a:hover{
+    text-decoration: none;
+    color: #4262df;
+    background-color: #ffffff;
+}
+.life-easier-wraper{
+    border-bottom: 2px solid #ddd;
+}
+/* We Integrate With All Your Data Sources section starts here  */
+.content4-data-sources{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 60px;
+}
+.icons{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    margin-top: 30px;
+    margin-bottom: 60px;
+}
+.icons img{
+    width: 130px;
+}
+#commerce{
+    width: 150px;
+}
+#sap{
+    width: 70px;
+}
+.data-sources{
+    border-bottom: 2px solid #ddd;
+}
+/* Save Time And Serve The Most Relevant Content Automatically section starts here  */
+.save-time-heading{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.save-time-heading h2{
+padding: 60px 250px;
+}
+.samartbanners-smartblocks{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.samartbanners-smartblocks img{
+    max-width: 100%;
+    width: 900px;
+}
+.flavor-alert{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    align-self: center;
+    text-align: center;
+    width: 900px;
+    margin: auto;
+    margin-bottom: 80px;
+}
+.img-for-mob{
+    display: none;
+}
+.flavor-img-for-mob{
+    display: none;
+}
+.flavor-img{
+    max-width: 80%;
+    width: 900px;
+}
+.flavor-alert img{
+    max-width: 100%;
+}
+.flavor-content{
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    justify-content: left;
+    text-align: left;
+    max-width: 50%;
+    margin-top: 20px;
+    padding: 0 10px;
+}
+.flavor-content p{
+    font-size: 24px;
+}
+.flavor-content li{
+    margin: 10px 0;
+    font-weight: 100;
+    font-size: 18px;
+    list-style: square !important;
+}
+/* .flavor-content li::before{
+    content: '\25B6 \FE0E';
+    position: absolute;
+    font-family: "Cambria Math";
+    appearance: none;
+    left: -25px;
+} */
+.demo{
+    margin-bottom: 10px;
+}
+.demo a{
+    border: 2px solid #4262df;
+    border-radius: 30px;
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    background-color: #4262df;
+    transition: 0.2s ease-in-out;
+}
+.demo a:hover{
+    background-color: white;
+    color: #4262df;
+}
+.save-time-and-serve{
+    border-bottom: 2px solid #ddd;
+}
+/* The Most Advanced Real-Time Personalization section starts here  */
+.section-heading{
+display: flex;
+align-items: center;
+justify-content: center;
+text-align: center;
+margin: auto;
+max-width: 70%;
+width: 900px;
+margin-top: 40px;
+}
+.row1{
+    margin-top: 10px;
+    margin-bottom: 90px;
+    /* -bs-gutter-x: 1.5rem; */
+}
+.column{
+    display: flex;
+    flex-direction: row;
+    margin: 20px auto;
+    max-width: 80%;
+    padding: 20px 10px;
+    border: 2px solid #ddd;
+}
+.column img{
+    max-width: 100%;
+    width: 40px;
+}
+.checkmark-content{
+    width: 600px;
+    padding: 0 20px;
+}
+.link-btn{
+    margin-top: 40px;
+}
+.link-btn a{
+    color: #4262df;
+    border: 2px solid #4262df;
+    border-radius: 30px;
+    background-color: white;
+    padding: 10px 10px;
+    text-decoration: none;
+}
+.link-btn a:hover{
+    background-color: #4262df;
+    color: white;
+}
+.get-started{
+    z-index: -1;
+    background-color: blueviolet;
+    background-image: linear-gradient(to top left, #7733e5, #e34dfe);
+    background-size: 100% 100%;
+}
+.get-started-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.get-started h2{
+    margin-top: 80px;
+    margin-bottom: 60px;
+    color: white;
+}
+.pricing{
+    margin-bottom: 100px;
+}
+.pricing a{
+    text-decoration: none;
+    color: white;
+    background-color: #32dab3;
+    padding: 10px 30px;
+    border: 2px solid #32dab3;
+    border-radius: 30px;
 }
